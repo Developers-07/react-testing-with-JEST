@@ -10,5 +10,4 @@ const AltText = () => {
 };
 
 
-
 export default AltText;
