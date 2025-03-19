@@ -10,6 +10,12 @@ import DisplayValue from './components/DisplayValue';
 import GetTitle from "./components/GetTitle";
 import AltText from './components/AltText'
 
+import TextMatch from './components/TextMatch'
+import QueryBy from './components/QueryBy'
+import FindBy from './components/FindBy'
+import WithinFun from './components/WithinFun'
+
+
 const App = () => {
     return (
         <div>
@@ -29,6 +35,14 @@ const App = () => {
             <GetTitle/>
 
             <AltText/>
+
+            <TextMatch/>
+
+            <QueryBy/>
+
+            <FindBy/>
+
+            <WithinFun/>
 
         </div>
     );
