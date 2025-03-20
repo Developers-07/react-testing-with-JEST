@@ -15,6 +15,9 @@ import QueryBy from './components/QueryBy'
 import FindBy from './components/FindBy'
 import WithinFun from './components/WithinFun'
 
+import UserEvent from './components/UserEvent'
+import PropsTesting from './components/PropsTesting'
+
 
 const App = () => {
     return (
@@ -43,6 +46,10 @@ const App = () => {
             <FindBy/>
 
             <WithinFun/>
+
+            <UserEvent/>
+
+            <PropsTesting name="Disha"/>
 
         </div>
     );
